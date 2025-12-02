@@ -115,10 +115,8 @@
     {
       "tag":"Proxy",
       "type":"selector",
-      "outbounds":[
-        "auto",
-        "direct",
-        "{all}"
+      "outbounds":[        
+        "direct"       
       ]
     },
     {
@@ -143,8 +141,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "HongKong"
+      ]
     },
     {
       "tag":"Telegram",
@@ -156,8 +153,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "America"
+      ]
     },
     {
       "tag":"Twitter",
@@ -169,8 +165,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "America"
+      ]
     },
     {
       "tag":"Facebook",
@@ -182,8 +177,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "America"
+      ]
     },
     {
       "tag":"BiliBili",
@@ -192,8 +186,7 @@
         "direct",
         "HongKong",
         "TaiWan"
-      ],
-      "default": "direct"
+      ]
     },
     {
       "tag":"Bahamut",
@@ -226,7 +219,7 @@
         "Japan",
         "America"
       ],
-      "default": "direct"
+      "default": "Japan"
     },
     {
       "tag":"Netflix",
@@ -238,8 +231,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "America"
+      ]
     },
     {
       "tag":"Disney+",
@@ -251,8 +243,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "America"
+      ]
     },
     {
       "tag":"Apple",
@@ -265,8 +256,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "direct"
+      ]
     },
     {
       "tag":"Microsoft",
@@ -279,8 +269,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "direct"
+      ]
     },
     {
       "tag":"Games",
@@ -293,8 +282,7 @@
         "Japan",
         "America",
         "Others"
-      ],
-      "default": "direct"
+      ]
     },
     {
       "tag":"Streaming",
@@ -333,7 +321,7 @@
       "tag":"HongKong",
       "type":"selector",
       "outbounds":[
-        "{all}"
+        
       ],
       "filter":[
         {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
@@ -343,7 +331,7 @@
       "tag":"TaiWan",
       "type":"selector",
       "outbounds":[
-        "{all}"
+        
       ],
       "filter":[
         {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]}
@@ -353,7 +341,7 @@
       "tag":"Singapore",
       "type":"selector",
       "outbounds":[
-        "{all}"
+      
       ],
       "filter":[
         {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]}
@@ -363,7 +351,7 @@
       "tag":"Japan",
       "type":"selector",
       "outbounds":[
-        "{all}"
+        
       ],
       "filter":[
         {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
@@ -373,7 +361,7 @@
       "tag":"America",
       "type":"selector",
       "outbounds":[
-        "{all}"
+        
       ],
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
@@ -383,7 +371,7 @@
       "tag":"Others",
       "type":"selector",
       "outbounds":[
-        "{all}"
+        
       ],
       "filter":[
         {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美"]}
@@ -393,7 +381,7 @@
       "tag":"auto",
       "type":"urltest",
       "outbounds":[
-        "{all}"
+        
       ],
       "filter":[
         {"action":"exclude","keywords":["网站|地址|剩余|过期|时间|有效"]}
