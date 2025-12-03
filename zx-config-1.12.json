@@ -449,6 +449,19 @@
         "outbound": "direct"
       },
       {
+        "ip_cidr": [
+        "192.168.1.0/24"
+        ],
+        "outbound": "home"
+      },
+      {
+        "domain_suffix": [
+        "ktpd.fun",
+        "zdljxdf.vip"
+        ],
+        "outbound": "direct"
+      },
+      {
         "rule_set": "geosite-openai",
         "outbound": "OpenAI"
       },
